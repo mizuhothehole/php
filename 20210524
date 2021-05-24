@@ -1,0 +1,6 @@
+SQL注入防止方法
+$sql = "INSERT INTO users (username, password, email)
+    VALUES (?,?,?)";
+$stmt = $mysqli->prepare($sql);
+$stmt->execute();
+插入数据时自动采集番号。不必自己另外写采集番号的逻辑。
