@@ -1,0 +1,11 @@
+php 语法简单
+
+ <?php > php代码区域
+define（name， value） 常量
+$a， $b 变量 类型不敏感
+各种控制语句都类似
+字符串连接，用. 例子：$a . $b
+rich字符串，用中括号，和Swift一样
+“this is rich {$a}”
+打印，也就是输出网页，用echo
+搭建起网站比较容易。
